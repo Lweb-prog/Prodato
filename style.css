@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prodato | Consultoría empresarial</title>
+  <meta
+    name="description"
+    content="Prodato ofrece soluciones empresariales en contabilidad, impuestos, auditoría, finanzas y estrategia."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a href="#top" class="logo">
+        <span class="logo-mark">P</span>
+        <span class="logo-text">Prodato</span>
+      </a>
+
+      <nav class="desktop-nav">
+        <a href="#servicios">Servicios</a>
+        <a href="#sectores">Sectores</a>
+        <a href="#insights">Insights</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="#contacto" class="btn btn-outline">Hablemos</a>
+        <button class="menu-btn" id="menuBtn" aria-label="Abrir menú">
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <div class="mobile-menu-inner">
+      <a href="#servicios" class="mobile-link">Servicios</a>
+      <a href="#sectores" class="mobile-link">Sectores</a>
+      <a href="#insights" class="mobile-link">Insights</a>
+      <a href="#nosotros" class="mobile-link">Nosotros</a>
+      <a href="#contacto" class="mobile-link">Contacto</a>
+    </div>
+  </div>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <p class="eyebrow">Consultoría empresarial</p>
+        <h1>
+          Soluciones estratégicas para empresas que necesitan
+          precisión, orden y crecimiento.
+        </h1>
+        <p class="hero-text">
+          En Prodato acompañamos a organizaciones con servicios de contabilidad,
+          impuestos, auditoría, finanzas y procesos, combinando mirada técnica y enfoque de negocio.
+        </p>
+
+        <div class="hero-actions-main">
+          <a href="#contacto" class="btn btn-gold">Solicitar reunión</a>
+          <a href="#servicios" class="btn btn-light">Ver servicios</a>
+        </div>
+      </div>
+
+      <div class="hero-bottom-card">
+        <div>
+          <span class="mini-label">Enfoque</span>
+          <strong>Empresas, directorios y equipos de gestión</strong>
+        </div>
+        <div>
+          <span class="mini-label">Cobertura</span>
+          <strong>Asesoramiento integral y multidisciplinario</strong>
+        </div>
+      </div>
+    </section>
+
+    <section class="intro section">
+      <div class="container intro-grid">
+        <div class="intro-left">
+          <p class="section-tag">Quiénes somos</p>
+          <h2>
+            Acompañamos decisiones relevantes con análisis claro,
+            criterio técnico y foco en resultados.
+          </h2>
+        </div>
+        <div class="intro-right">
+          <p>
+            Trabajamos junto a empresas que buscan una consultora cercana, sólida y
+            preparada para resolver desafíos contables, tributarios, financieros y operativos.
+            Nuestro objetivo es transformar información en decisiones más seguras.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section dark-section" id="servicios">
+      <div class="container">
+        <div class="section-head">
+          <p class="section-tag light">Servicios</p>
+          <h2>Áreas en las que aportamos valor</h2>
+        </div>
+
+        <div class="cards-grid">
+          <article class="service-card">
+            <span class="card-number">01</span>
+            <h3>Contabilidad y reportes</h3>
+            <p>
+              Organización contable, cierres, reportes financieros y soporte para una gestión confiable.
+            </p>
+          </article>
+
+          <article class="service-card">
+            <span class="card-number">02</span>
+            <h3>Impuestos y cumplimiento</h3>
+            <p>
+              Asesoramiento tributario, planificación fiscal y seguimiento de obligaciones periódicas.
+            </p>
+          </article>
+
+          <article class="service-card">
+            <span class="card-number">03</span>
+            <h3>Auditoría y control</h3>
+            <p>
+              Revisión de procesos, análisis de riesgos y fortalecimiento de controles internos.
+            </p>
+          </article>
+
+          <article class="service-card">
+            <span class="card-number">04</span>
+            <h3>Finanzas corporativas</h3>
+            <p>
+              Modelos de análisis, evaluación de decisiones, indicadores y apoyo para directorios.
+            </p>
+          </article>
+
+          <article class="service-card">
+            <span class="card-number">05</span>
+            <h3>Procesos y gestión</h3>
+            <p>
+              Estandarización, mejora operativa y diseño de herramientas para administrar mejor.
+            </p>
+          </article>
+
+          <article class="service-card">
+            <span class="card-number">06</span>
+            <h3>Asesoramiento estratégico</h3>
+            <p>
+              Un enfoque integral para acompañar crecimiento, profesionalización y toma de decisiones.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="sectores">
+      <div class="container">
+        <div class="section-head">
+          <p class="section-tag">Sectores</p>
+          <h2>Experiencia transversal en distintos rubros</h2>
+        </div>
+
+        <div class="sector-grid">
+          <div class="sector-item">Servicios profesionales</div>
+          <div class="sector-item">Industria y comercio</div>
+          <div class="sector-item">Real estate y construcción</div>
+          <div class="sector-item">Salud</div>
+          <div class="sector-item">Tecnología</div>
+          <div class="sector-item">Empresas familiares</div>
+          <div class="sector-item">Startups</div>
+          <div class="sector-item">Grupos empresariales</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section accent-section">
+      <div class="container stats-grid">
+        <div class="stat">
+          <strong>+300</strong>
+          <span>proyectos y análisis desarrollados</span>
+        </div>
+        <div class="stat">
+          <strong>Integral</strong>
+          <span>visión contable, tributaria y financiera</span>
+        </div>
+        <div class="stat">
+          <strong>Ágil</strong>
+          <span>respuesta rápida con criterio profesional</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="insights">
+      <div class="container">
+        <div class="section-head">
+          <p class="section-tag">Insights</p>
+          <h2>Contenido y análisis para clientes y empresas</h2>
+        </div>
+
+        <div class="insights-grid">
+          <article class="insight-card featured">
+            <div class="insight-label">Destacado</div>
+            <h3>Aspectos tributarios a considerar por un directorio</h3>
+            <p>
+              Una mirada práctica sobre los puntos fiscales que requieren seguimiento desde la gobernanza.
+            </p>
+            <a href="#" class="text-link">Leer más</a>
+          </article>
+
+          <article class="insight-card">
+            <div class="insight-label">Análisis</div>
+            <h3>Indicadores para mejorar la gestión financiera</h3>
+            <p>
+              Qué métricas ayudan a anticipar decisiones y ordenar el crecimiento.
+            </p>
+            <a href="#" class="text-link">Leer más</a>
+          </article>
+
+          <article class="insight-card">
+            <div class="insight-label">Actualidad</div>
+            <h3>Cumplimiento y organización documental</h3>
+            <p>
+              Cómo profesionalizar procesos sin perder agilidad operativa.
+            </p>
+            <a href="#" class="text-link">Leer más</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section team-section" id="nosotros">
+      <div class="container team-grid">
+        <div class="team-copy">
+          <p class="section-tag">Nosotros</p>
+          <h2>Un equipo orientado a brindar claridad en contextos complejos</h2>
+          <p>
+            Creemos en el trabajo riguroso, la cercanía con el cliente y la capacidad de traducir
+            información técnica en recomendaciones útiles para la empresa.
+          </p>
+          <a href="#contacto" class="btn btn-dark">Contactar al equipo</a>
+        </div>
+
+        <div class="team-panel">
+          <div class="team-box">
+            <span>Excelencia técnica</span>
+            <span>Enfoque práctico</span>
+            <span>Trabajo multidisciplinario</span>
+            <span>Compromiso con el cliente</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contacto">
+      <div class="container contact-grid">
+        <div class="contact-copy">
+          <p class="section-tag light">Contacto</p>
+          <h2>Conversemos sobre tu empresa</h2>
+          <p>
+            Si querés una web institucional sobria y profesional, este bloque también puede servir
+            como sección final de contacto y captación.
+          </p>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+          <div class="form-row">
+            <input type="text" id="name" placeholder="Nombre" required />
+            <input type="email" id="email" placeholder="Correo electrónico" required />
+          </div>
+          <input type="text" id="company" placeholder="Empresa" />
+          <textarea id="message" rows="6" placeholder="Contanos en qué te podemos ayudar" required></textarea>
+          <button type="submit" class="btn btn-gold">Enviar consulta</button>
+          <p class="form-message" id="formMessage"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>Prodato</strong>
+        <p>Consultoría empresarial con mirada estratégica.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#servicios">Servicios</a>
+        <a href="#insights">Insights</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
